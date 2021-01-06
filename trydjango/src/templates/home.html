@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Hello {{request.user}}</h1>
+<!-- for getting auth details -->
+<!-- {{request.user.is_authenticated}} -->
+<p>This is a home template</p>
+{% endblock %}

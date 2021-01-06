@@ -1,0 +1,16 @@
+<!-- like a root page... named 'base' for convention
+Things here appear in all webpages when extended
+could be used for title, navbar,etc... which are common to all pages-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Basic Django site</title>
+    </head>
+    <body>
+        {% include 'navbar.html' %}
+
+        {% block content %}
+        replace me
+        {% endblock %}
+    </body>
+</html>

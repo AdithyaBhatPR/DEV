@@ -33,7 +33,7 @@ def send_mail():
 	server.starttls()
 	server.ehlo()
 	
-	server.login('adithyabhatpr@gmail.com','oxsfntxixhsqxxrw')
+	server.login('adithyabhatpr@gmail.com','<password>')
 
 	subject = 'Price of product has fallen'
 	body = 'Check the amazon link: https://www.amazon.in/ASUS-ZenBook-i7-1165G7-Graphics-UX425EA-BM701TS/dp/B08M4SWRR5/ref=pd_sbs_147_13?_encoding=UTF8&pd_rd_i=B08M4SWRR5&pd_rd_r=314ea757-0eb1-4e98-9e49-29d7bfdaf749&pd_rd_w=pCPnf&pd_rd_wg=xBnEB&pf_rd_p=758bfbc8-a8f2-4456-bf65-ae5d502eac06&pf_rd_r=271BAAF0ZD8ANXYENT9T&psc=1&refRID=271BAAF0ZD8ANXYENT9T'
